@@ -1,16 +1,18 @@
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
 .container {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
 }
 
-.sidebar {
-	display: inline-block;
-	max-width: 25%;
-}
-
 .blog {
 	display: inline-block;
 	max-width: 45%;
+
 }
 
